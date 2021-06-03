@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+header{
+    width:100%;
+    line-height:20vh;
+    background-color: rgb(6, 145, 138);
+    color: white;
+    font-size: 2rem;
+    font-family: 'Carter One', cursive;
+    font-weight: 200px;
+    text-align: center;
+    text-transform: capitalize;
+   letter-spacing: 6px;
+    text-shadow: 0 1px 0 #efefef,
+                0 2px 0 #efefef,
+                0 3px 0 #efefef,
+                0 4px 0 #efefef,
+                0 30px 5px rgba(0,0,0,.1);
+}
+section{
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(188, 143, 143, 0.726);
+}
+.gameArea{
+    width: 50%;
+    height: 400px;
+    background-color: #a58080;
+
+    font-family: 'Source Sans Pro',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+input{
+    width:30%;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    background-color: #dff9fb;
+    color: darkcyan;
+    margin: 2rem 0;
+    font-size: 1.3rem;
+}
+button{
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: #2f3542;
+    margin-top: 10px;
+    color: #eb4d4b;
+}
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background:rgb(248, 244, 244);
+    text-transform:uppercase;
+    transition-property:all ;
+    transition-duration:0.5s ;
+    transition: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+button.btn:hover,button.btn:focus,button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+    
+}
+.hidden{
+    display: none;
+}
